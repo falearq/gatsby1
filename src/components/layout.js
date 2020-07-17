@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Footer from './footer'
 import Header from './header'
-
+import ImpactLabel from '../fonts/ImpactLabel.woff2'
+import BohemianTypewriter from '../fonts/BohemianTypewriter.woff2'
 
 const Layout = (props)=>{
     return(
@@ -36,7 +37,7 @@ a:hover{
         @font-face{
             font-family:'Impact Label';
                 src:
-                url('../fonts/ImpactLabel.woff2') format('woff2')
+                url(${ImpactLabel}) format('woff2')
         }
             display:flex;
             flex-direction: column;
@@ -46,7 +47,7 @@ const Content = styled.div`
         @font-face{
             font-family:'Bohemian Typewriter';
                 src:
-                url('../fonts/BohemianTypewriter.woff2') format('woff2')
+                url(${BohemianTypewriter}) format('woff2')
         }
         h1,h2{
             font-family:'Impact Label'; 

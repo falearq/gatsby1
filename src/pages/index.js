@@ -9,7 +9,7 @@ const Index = () => {
     return(
         <Layout>
         <h1>TJ3K</h1>
-        <p>TJ3K es un proyecto multimedia que a través de una infografía animada, un sitio web y una postal sonora busca criticar la sociedad. Esto con recursos del subgénero de la ciencia ficción,el cyberpunk. El referente central del proyecto es デスパウダー<i className='italics'> Death Powder</i> Sí tienes alguna duda o quieres saber puedes visitar la sección de <Link to='/contact'>Contacto</Link></p>
+        <p>TJ3K es un proyecto multimedia que a través de una infografía animada, un sitio web y una postal sonora busca criticar la sociedad. Esto con recursos del subgénero de la ciencia ficción,el cyberpunk. El referente central del proyecto es デスパウダー<i className='italics'> Death Powder</i> Sí tienes alguna duda o quieres saber más puedes visitar la sección de <Link to='/contact'>Contacto</Link></p>
         <Ava alt='Ava. Personaje principal de TJ3K' src={ava}></Ava>
         </Layout>
     )

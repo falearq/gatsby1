@@ -48,7 +48,7 @@ const Concept = ()=>{
 const ConceptWrap = styled.div`
 flex-flow:column;
 .title{
-  margin-left:10.5em;
+  margin-left:7em;
 }
 `
 const Item = styled.li`
